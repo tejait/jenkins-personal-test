@@ -11,4 +11,8 @@ public class PipelineController {
     public String mavenBuild(){
         return "Teja APP Maven Build";
     }
+    @GetMapping("docker")
+    public String dockerHub(){
+      return "Teja docker hub API";
+    }
 }
