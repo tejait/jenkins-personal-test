@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: spring-git-jenkins-docker
-          image: 7013781152/spring-git-jenkins-docker-image-docker-hub-kubernetes:latest
-          imagePullPolicy: Always
+          image: 7013781152/spring-git-jenkins-docker-image-docker-hub-kubernetes:v1
           ports:
             - containerPort: 8080
