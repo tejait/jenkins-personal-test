@@ -15,4 +15,8 @@ public class PipelineController {
     public String dockerHub(){
       return "Teja docker hub API";
     }
+    @GetMapping("kubernetes")
+    public String kubernetes(){
+      return  "Teja Kubernetes";
+    }
 }
